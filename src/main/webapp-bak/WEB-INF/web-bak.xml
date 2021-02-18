@@ -28,7 +28,7 @@
 	<servlet>
 		<display-name>CacheServlet</display-name>
 		<servlet-name>CacheServlet</servlet-name>
-		<servlet-class>com.yasenagat.zkweb.web.ZkCacheServlet</servlet-class>
+		<servlet-class>com.keepgulp.zkweb.web.ZkCacheServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 		

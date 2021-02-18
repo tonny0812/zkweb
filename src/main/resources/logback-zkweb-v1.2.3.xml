@@ -59,7 +59,7 @@ debug:
   <logger name="org.apache.curator" level="WARN" additivity="true" />
   <logger name="org.apache.kafka.common.consumer.internals.Fetcher" level="WARN" additivity="true" />  
   <logger name="org.apache.ibatis" level="WARN" additivity="true" />  
-  <logger name="com.yasenagat.zkweb" level="INFO" additivity="true" />
+  <logger name="com.keepgulp.zkweb" level="INFO" additivity="true" />
   <!-- sql debug info，和mybatis-config.xml的logPrefix配合使用-->
   <logger name="mybatis" level="WARN" additivity="true" />  
   <!--trace,debug,info,warn,error-->
