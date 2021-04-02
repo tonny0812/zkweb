@@ -45,3 +45,7 @@ hs_err_pid*
 /.settings/org.springframework.ide.eclipse.core.prefs
 /.springBeans
 /.apt_generated_tests/
+/.idea/
+/zkWeb (1).iml
+/zkWeb (2).iml
+/zkWeb (3).iml
