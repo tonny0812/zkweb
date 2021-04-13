@@ -7,7 +7,7 @@
 	<packaging>jar</packaging>
 	<version>v1.2.1</version>
 
-	<name>zkWeb</name>
+	<name>zkWeb-jar</name>
 	<url>https://github.com/zhitom/zkweb</url>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -20,7 +20,9 @@
 		<org.springframework-version>5.0.5.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.9.1</org.aspectj-version>
 		<org.slf4j-version>1.7.25</org.slf4j-version>
+		<curator.version>4.2.0</curator.version>
 		<jackson.version>2.9.6</jackson.version>
+		<lombok.version>1.18.12</lombok.version>
 	</properties>
 
 	<build>
@@ -183,6 +185,14 @@
 			<artifactId>mchange-commons-java</artifactId>
 			<version>0.2.15</version>
 		</dependency>
+
+		<!--工程工具-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
